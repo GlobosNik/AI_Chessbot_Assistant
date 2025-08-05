@@ -221,9 +221,9 @@ def get_result_positions():
 
 def main():
     # Configuration
-    model_path = "/home/nikhil/Desktop/ChessBot/chessPieceDetector.pt"
-    image_path = "/home/nikhil/Desktop/ChessBot/test.png"
-    output_path = "chess_detection_result.png"
+    model_path = "chessPieceDetector.pt"         # Path to YOLO model
+    image_path = "path_to_test_image"            # Update this
+    output_path = "chess_detection_result.png"   # Path to save image of detected pieces
     
     # Check if files exist
     if not os.path.exists(model_path):
