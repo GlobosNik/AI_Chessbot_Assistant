@@ -1,0 +1,13 @@
+REQUIREMENTS:
+
+kivy>=2.0.0
+numpy
+Pillow
+opencv-python
+matplotlib
+chess
+zstandard
+tensorflow
+tqdm
+pickle-mixin
+ultralytics
