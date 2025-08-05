@@ -209,8 +209,8 @@ if __name__ == "__main__":
     chess_ai = ChessAI()
     
     # Training parameters
-    PGN_FILE_PATH = "/media/nikhil/BE0F-C323/lichess_db_standard_rated_2018-09.pgn.zst"
-    MODEL_SAVE_PATH = "/home/nikhil/Desktop/ChessBot/Globchess.h5"
+    PGN_FILE_PATH = "path_to_chess_PGN_ZST_dataset"
+    MODEL_SAVE_PATH = "Globchess.h5"
     
     # Train the model
     print("Starting chess AI training...")
@@ -222,7 +222,7 @@ if __name__ == "__main__":
         batch_size=64
     )
     
-    print("Training completed!")
+    print("Training completed.")
     
     # Test the prediction functionality
     print("\nTesting prediction...")
