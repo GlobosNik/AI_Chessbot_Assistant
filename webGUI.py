@@ -27,8 +27,8 @@ except ImportError as e:
 kivy.require('2.0.0')
 
 # Configuration paths
-pieceDetector_path = '/home/nikhil/Desktop/ChessBot/chessPieceDetector.pt'
-movePredictor_path = '/home/nikhil/Desktop/ChessBot/Globchess.h5'
+pieceDetector_path = 'chessPieceDetector.pt'    # Path to YOLO model for chess piece detection
+movePredictor_path = 'Globchess.h5'             # Path to chess AI model
 
 class TurnSelectionPopup(Popup):
     def __init__(self, callback, **kwargs):
