@@ -1,13 +1,12 @@
-# AI Chessbot Assistant
+# AI Chessbot Assistant - GlobChess
 
-AI Chessbot Assistant is a powerful tool designed to help chess players make optimal moves by analyzing digital chessboard images. Leveraging advanced AI and computer vision techniques, this assistant can suggest the best possible move in any given position, making it an ideal companion for both beginners and experienced players.
+GlobChess is a powerful tool designed to help chess players make optimal moves by analyzing digital chessboard images. Leveraging advanced AI and computer vision techniques, it can suggest the best possible move in any given position, making it an ideal companion for both beginners and experienced players.
 
 ## Features
 
 - **Image-Based Position Recognition:** Upload an image of a digital chessboard, and the assistant will accurately detect the board state.
 - **AI-Powered Move Suggestions:** Get the best move recommendations based on the current position using state-of-the-art chess engines and algorithms.
 - **User-Friendly Interface:** Simple, intuitive workflow to interact with the system and receive move suggestions.
-- **Multi-Platform Support:** Works with different digital chessboard formats and platforms.
 
 ## Technologies Used
 
@@ -21,7 +20,8 @@ AI Chessbot Assistant is a powerful tool designed to help chess players make opt
    git clone https://github.com/GlobosNik/AI_Chessbot_Assistant.git
    ```
 2. Install dependencies (see [requirements.txt](requirements.txt)).
-3. Run the main assistant script and follow the instructions.
+3. Run the launch script (runApp.sh for Linux and runApp.bat for Windows) to open the main window.
+4. First upload the image of the online chessboard, detect the pieces and then run the move predictor.
 
 ## Usage
 
