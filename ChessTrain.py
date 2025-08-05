@@ -209,8 +209,8 @@ if __name__ == "__main__":
     chess_ai = ChessAI()
     
     # Training parameters
-    PGN_FILE_PATH = "path_to_chess_PGN_ZST_dataset"
-    MODEL_SAVE_PATH = "Globchess.h5"
+    PGN_FILE_PATH = "path_to_chess_PGN_ZST_dataset"    # Update this
+    MODEL_SAVE_PATH = "Globchess.h5"                   # Path to chess AI model
     
     # Train the model
     print("Starting chess AI training...")
