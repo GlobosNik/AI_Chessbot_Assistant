@@ -27,7 +27,7 @@ GlobChess is a powerful tool designed to help chess players make optimal moves b
 
 - Upload or specify the path to a digital chessboard image.
 - The assistant analyzes the position and suggests the best move.
-- Use the suggested move in your game to improve your play!
+- Use the suggested move in your game to improve your play.
 
 ## Contributing
 
